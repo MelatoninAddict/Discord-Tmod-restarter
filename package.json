@@ -18,6 +18,7 @@
     "@discordjs/rest": "^1.0.1",
     "discord-api-types": "^0.37.1",
     "discord.js": "^14.1.2",
+    "taskkill": "^5.0.0",
     "treeify": "^1.1.0",
     "yaml": "^2.1.1"
   }
