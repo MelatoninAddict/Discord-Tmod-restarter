@@ -183,9 +183,6 @@ module.exports = async (Discord, client, interaction) => {
           try{
 
           const child = execFile('terraria.bat', [], (error, stdout, stderr) => {
-            if (error) {
-              throw error;
-            }
             console.log("nice");
           });
 
