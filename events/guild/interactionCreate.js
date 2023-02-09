@@ -17,7 +17,7 @@ const {
 } = require('../../getrole')
 const treeify = require('treeify');
 const timer = ms => new Promise(res => setTimeout(res, ms))
-import {taskkill} from 'taskkill';
+const taskkill = require('taskkill');
 
 module.exports = async (Discord, client, interaction) => {
   var channel = interaction.channel;
