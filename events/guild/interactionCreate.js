@@ -187,9 +187,9 @@ module.exports = async (Discord, client, interaction) => {
         }
       }
       return
-      }
-
     }
+
+    
 
 
 
