@@ -1,0 +1,25 @@
+template1: #Page name / id
+  items:
+    pageitem: #required label can only have 5 pageitems
+      type: 1 # Type of element in 'page' # Type = Attachment
+      image-file: "popcat.gif"
+    pageitem2:
+      type: 2 #Type Embed, Only one embed per message
+      title: "Template Title"
+      text: "Template Text"
+    pageitem3:
+      type: 3 #Type Buttons
+      items:
+        button1:
+          buttonclass: 1
+          buttonname: "Primary" #Name of the button
+          buttonids: "primarytemplate"  #'page' name/id to redirect to
+          buttontype: "Primary" #button Color type
+          buttondisabled: false #If button is disabled or not
+
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: false
+    origin: "none"
+    #set update to false on MAIN YAML options

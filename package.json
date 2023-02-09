@@ -1,0 +1,24 @@
+{
+  "name": "servermenusjava",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^16.16.0",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord-api-types": "^0.37.1",
+    "discord.js": "^14.1.2",
+    "treeify": "^1.1.0",
+    "yaml": "^2.1.1"
+  }
+}

@@ -1,0 +1,3108 @@
+welcome-bot-home:
+    items:
+      welcome-image:
+        type: 1
+        image-file: "https://cdn.discordapp.com/attachments/956313907880927323/1017759396362719305/Crypto_Unicorns_Trailer.mp4"
+      welcome-embed:
+        type: 2
+        title: "✅ Get Verified ✅"
+        text: "Welcome to Crypto Unicorns, human fren! 
+
+          \nThis is a fun, happy place where Unicorns and human frens live in peace. Take your unicorns with you and come take shelter in the Unicorn Metaverse.
+
+          \nGet verified with <@703886990948565003> bot first.
+
+          \n❗️ If you are not receiving a DM from the <@703886990948565003> bot, make sure that you've enabled Allow Direct Messages from server members.
+
+          \nGo to User Settings > Privacy & Safety > Toggle > Allow DMs from server members > Exit the server and then enter again.
+
+          \n❗️ Make sure that you have disabled VPN.
+
+          \n❗️ If you still are not receiving a DM from the <@703886990948565003> bot, please DM any of the <@&898316582361661522> or <@&903386100716945468> to help you.
+
+          \n❗️ Note that the bot may kick you if you don't get verified for a long time. If this happens, rejoin the server and verify by clicking on the link you'll get in your DM.
+
+          \n❗️<@703886990948565003> is our official verification bot so if you receive any DMs from any other Captcha bots, they are FAKE. Do not respond to them.
+
+          \n❗️ After getting verified by <@703886990948565003> we recommend that you turn off DMs from server members for safety.
+
+          \n❗️ Your verification is successful when you receive the <@&898909800287580220> role.
+
+          \nWe'd also like you to know the rules of our homeland so click the \"Rules\" button below."
+      welcome-buttons-1:
+        type: 3
+        items:
+          serverinfo:
+            buttonclass: 1
+            buttonname: "Server Info"
+            buttonids: "serverinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          rules:
+            buttonclass: 1
+            buttonname: "Rules"
+            buttonids: "welcome-bot-rules"
+            buttontype: "Secondary"
+            buttondisabled: false
+          roles:
+            buttonclass: 1
+            buttonname: "Roles"
+            buttonids: "welcome-bot-roles"
+            buttontype: "Secondary"
+            buttondisabled: false
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+          button8:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "welcome-bot-gameinfo-links"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-buttons-3:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Roles"
+            buttonids: "roleinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          get-server-roles:
+            buttonclass: 3
+            buttonname: "Get Server Roles"
+            buttonurl: "https://discord.com/channels/898314244095877180/1025381778208329799"
+            buttontype: "Link"
+            buttondisabled: false
+    options:
+      update: false
+      ephemeral: false
+
+welcome-bot-rules:
+    items:
+      embed:
+        type: 2
+        title: "🧑‍⚖️ RULES 🧑‍⚖️"
+        text: "Read up on the rules of the land and make sure to follow them. Each button represents a rule category. Click one below to see the rules under that category."
+      welcome-bot-rules-home:
+        type: 3
+        items:
+          rules:
+            buttonclass: 1
+            buttonname: "Rules"
+            buttonids: "rulesd"
+            buttontype: "Success"
+            buttondisabled: true
+          chat:
+            buttonclass: 1
+            buttonname: "Chat and Interactions"
+            buttonids: "welcome-bot-rules-chat"
+            buttontype: "Secondary"
+            buttondisabled: false
+          accounts:
+            buttonclass: 1
+            buttonname: "Accounts"
+            buttonids: "welcome-bot-rules-accounts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          punishment:
+            buttonclass: 1
+            buttonname: "Punishment"
+            buttonids: "welcome-bot-rules-punishment"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: false
+      ephemeral: true
+
+welcome-bot-rules-chat:
+    items:
+      chat-rules-embed:
+        type: 2
+        title: "Chat and Interactions"
+        text: "**Channels**
+              \nInteract on channels that suit the topic of discussion. You will be asked to move your discussion to another, more appropriate channel if your discussion is not in line with the purpose of the channel. Further violations will result in Time Out or Ban.
+              \n
+              \nTo know more about the server channels, select \"Channels\" on the Server Info category.
+              \n
+              \n**Language**
+              \nEnglish is the server's language so you must use it in all channels aside from the international channels. You may use non-English languages on the international channels.
+              \n
+              \n**Pinging**
+              \nAvoid unnecessary pinging of other users. Pinging of <@&898776990604210256> is disabled.
+              \n
+              \n**Spamming**
+              \nSpamming and flooding are not allowed. This includes all caps, spamming emojis, text, stickers, etc. Soliciting for money, NFT's, crypto, etc. is also considered spam.
+              \n
+              \n**Shilling**
+              \nPosting of any ads or promotions anywhere other than the <#902071467808804884> channel is prohibited. No poaching of members or discussion of other projects in public channels or in DM.
+              \n
+              \n**NSFW Content**
+              \nAdult and/or explicit material are prohibited. Let's keep the server PG-13.
+              \n
+              \n**Toxicity and Cursing**
+              \nToxic or offensive behaviors/languages are prohibited in chat. Excessive cursing and cursing directed at other members are also not allowed.
+              \n
+              \n**Commands**
+              \nCommands for personal use should be used within <#898928207284285480>.
+              \n
+              \n**Inquiries**
+              \nExplore the server and be independent. Try to find the answers to your questions in the <#961389847128457286> or by using the search function on Discord."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-rules"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-rules-copy:
+        type: 3
+        items:
+          rules:
+            buttonclass: 1
+            buttonname: "Rules"
+            buttonids: "rulesd"
+            buttontype: "Success"
+            buttondisabled: true
+          accounts:
+            buttonclass: 1
+            buttonname: "Accounts"
+            buttonids: "welcome-bot-rules-accounts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          punishment:
+            buttonclass: 1
+            buttonname: "Punishment"
+            buttonids: "welcome-bot-rules-punishment"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-rules-accounts:
+    items:
+      punishment-rules-embed:
+        type: 2
+        title: "Accounts"
+        text: "**Alt-Accounts**
+              \nMulti-accounting is strictly prohibited.
+              \n
+              \n**Bots**
+              \nNo bots allowed. Admins and mods reserve the right to permanently kick or ban users for suspicious bot-like behavior.
+              \n
+              \n**Impersonation**
+              \nNo impersonation or stealing other people's usernames.
+              \n
+              \n**Usernames**
+              \nInappropriate usernames are prohibited and will result in a kick.
+              \n
+              \n**Verification**
+              \n<@703886990948565003> is the official verification bot of the server. Do not respond to any DMs about verification other than <@703886990948565003> 's because they are fake."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-rules"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-rules-copy:
+        type: 3
+        items:
+          rules:
+            buttonclass: 1
+            buttonname: "Rules"
+            buttonids: "rulesd"
+            buttontype: "Success"
+            buttondisabled: true
+          chat:
+            buttonclass: 1
+            buttonname: "Chat and Interactions"
+            buttonids: "welcome-bot-rules-chat"
+            buttontype: "Secondary"
+            buttondisabled: false
+          punishment:
+            buttonclass: 1
+            buttonname: "Punishment"
+            buttonids: "welcome-bot-rules-punishment"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-rules-punishment:
+    items:
+      punishment-rules-embed:
+        type: 2
+        title: "Punishment"
+        text: "The punishment for rule violations depend on the severity as well as the past offenses of the offender. Minor offenses merit timeouts while major offenses merit bans.
+              \n
+              \nYou may appeal your punishment on Laguna Games Zendesk. The admins' decision on an appeal is final."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-rules"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-rules-copy:
+        type: 3
+        items:
+          rules:
+            buttonclass: 1
+            buttonname: "Rules"
+            buttonids: "rulesd"
+            buttontype: "Success"
+            buttondisabled: true
+          chat:
+            buttonclass: 1
+            buttonname: "Chat and Interactions"
+            buttonids: "welcome-bot-rules-chat"
+            buttontype: "Secondary"
+            buttondisabled: false
+          accounts:
+            buttonclass: 1
+            buttonname: "Accounts"
+            buttonids: "welcome-bot-rules-accounts"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-roles:
+    items:
+      embed:
+        type: 2
+        title: "👤 ROLES 👤"
+        text: "Know more about the different roles in the server! Server roles are categorized according to their function. Click a button below to see the roles under a category and their purpose."
+      welcome-bot-roles-home:
+        type: 3
+        items:
+          roles:
+            buttonclass: 1
+            buttonname: "Roles"
+            buttonids: "rolesd"
+            buttontype: "Success"
+            buttondisabled: true
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-roles-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+          mods:
+            buttonclass: 1
+            buttonname: "Moderators"
+            buttonids: "welcome-bot-roles-mods"
+            buttontype: "Secondary"
+            buttondisabled: false
+          vip:
+            buttonclass: 1
+            buttonname: "VIP"
+            buttonids: "welcome-bot-roles-vip"
+            buttontype: "Secondary"
+            buttondisabled: false
+          community:
+            buttonclass: 1
+            buttonname: "Community Roles"
+            buttonids: "welcome-bot-roles-community"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: false
+      ephemeral: true
+
+welcome-bot-roles-lg:
+    items:
+      welcome-bot-roles-lg:
+        type: 2
+        title: "Laguna Games"
+        text: "<@&898316582361661522>
+              \nEmployees of Laguna Games. Crypto Unicorns' Community Management Team.
+              \n
+              \n<@&898776990604210256>
+              \nEmployees of Laguna Games. The Developers of Crypto Unicorns."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-roles"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-roles-copy:
+        type: 3
+        items:
+          roles:
+            buttonclass: 1
+            buttonname: "Roles"
+            buttonids: "rolesd"
+            buttontype: "Success"
+            buttondisabled: true
+          mods:
+            buttonclass: 1
+            buttonname: "Moderators"
+            buttonids: "welcome-bot-roles-mods"
+            buttontype: "Secondary"
+            buttondisabled: false
+          vip:
+            buttonclass: 1
+            buttonname: "VIP"
+            buttonids: "welcome-bot-roles-vip"
+            buttontype: "Secondary"
+            buttondisabled: false
+          community:
+            buttonclass: 1
+            buttonname: "Community Roles"
+            buttonids: "welcome-bot-roles-community"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-roles-mods:
+    items:
+      welcome-bot-roles-mods:
+        type: 2
+        title: "Moderators"
+        text: "<@&907305998337851403> and <@&903386100716945468>
+          \nVolunteer community mods. Not an official employee."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-roles"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-roles-copy:
+        type: 3
+        items:
+          roles:
+            buttonclass: 1
+            buttonname: "Roles"
+            buttonids: "rolesd"
+            buttontype: "Success"
+            buttondisabled: true
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-roles-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+          vip:
+            buttonclass: 1
+            buttonname: "VIP"
+            buttonids: "welcome-bot-roles-vip"
+            buttontype: "Secondary"
+            buttondisabled: false
+          community:
+            buttonclass: 1
+            buttonname: "Community Roles"
+            buttonids: "welcome-bot-roles-community"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-roles-vip:
+    items:
+      welcome-bot-roles-vip:
+        type: 2
+        title: "🌟 VIP"
+        text: "<@&936243173217435699>
+          \nPartners of Crypto Unicorns.
+          \n
+          \n<@&993404952946937876>
+          \nElected members of the current season of the Governance Council as stated in CUIP-004.
+          \n
+          \n<@&985956235931181116>
+          \nEarly supporters that were granted the Founder's Badge.
+          \n
+          \n<@&898776820814610432>
+          \nAvid volunteer content creators in the community.
+          \n
+          \n<@&915505740431646731>
+          \nPlayers who were whitelisted for the Land sales.
+          \n
+          \n<@&902114164854636564>
+          \nPlayers who were whitelisted for the Genesis Egg Sale."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-roles"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-roles-copy:
+        type: 3
+        items:
+          roles:
+            buttonclass: 1
+            buttonname: "Roles"
+            buttonids: "rolesd"
+            buttontype: "Success"
+            buttondisabled: true
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-roles-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+          mods:
+            buttonclass: 1
+            buttonname: "Moderators"
+            buttonids: "welcome-bot-roles-mods"
+            buttontype: "Secondary"
+            buttondisabled: false
+          community:
+            buttonclass: 1
+            buttonname: "Community Roles"
+            buttonids: "welcome-bot-roles-community"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-roles-community:
+    items:
+      welcome-bot-roles-community:
+        type: 2
+        title: "👥 Community Roles"
+        text: "<@&898909800287580220>
+            \nPlayers who have been verified by Double Counter, our server's verification bot.
+            \n
+            \n<@&898746005443473440>
+            \nPlayers who haven't been verified by Double Counter.
+            \n
+            \n<@&958117217239703662>
+            \nCommunity members who have reached Level 5 on the Discord server. They are pinged for community events.
+            \n
+            \n<@&928170115948744715>
+            \nThe role to get if you want to be pinged for tweets on Crypto Unicorn's official Twitter. You may get it by going to <#928171232577355826>.
+            \n
+            \n<@&969641420111609937>
+            \nThe role to get if you want to be pinged for maintenance updates, known issues, and patch notes. You may get it by going to <#928171232577355826>.
+            \n
+            \n<@&973988701229187122>
+            \nThe role to get if you want to be pinged for governance updates. You may get it by going to <#928171232577355826>.
+            \n
+            \n<@&1011472615392694283>
+            \nThe role to get if you want to be pinged for 2nd party updates. You may get it by going to <#928171232577355826>."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-roles"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-roles-copy:
+        type: 3
+        items:
+          roles:
+            buttonclass: 1
+            buttonname: "Roles"
+            buttonids: "rolesd"
+            buttontype: "Success"
+            buttondisabled: true
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-roles-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+          mods:
+            buttonclass: 1
+            buttonname: "Moderators"
+            buttonids: "welcome-bot-roles-mods"
+            buttontype: "Secondary"
+            buttondisabled: false
+          vip:
+            buttonclass: 1
+            buttonname: "VIP"
+            buttonids: "welcome-bot-roles-vip"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels:
+    items:
+      embed:
+        type: 2
+        title: "🙋 CHANNELS 🙋"
+        text: "Learn more about the channels in this server! Each button represents a channel category. Click one to see the channels under that category and their purpose.
+              \n
+              \nWhen chatting in the server, make sure to go to the channel that suits the topic you want to discuss."
+      welcome-bot-channels-home:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-channels-home2:
+        type: 3
+        items:
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: false
+      ephemeral: true
+
+welcome-bot-channels-nu:
+    items:
+      welcome-bot-channels-nu:
+        type: 2
+        title: "📰 News and Updates"
+        text: "<#898704431095353404>
+              \nThis channel is where we give game-wide updates and announcements.
+              \n
+              \n<#898703393042874368>
+              \nHere is where we give announcements and updates relating to community matters.
+              \n
+              \n<#951994814398885948>
+              \nThis channel is dedicated to game updates released by the devs themselves.
+              \n
+              \n<#968693555142983710>
+              \nIn this channel, we put up announcements and summaries regarding in-game updates.
+              \n
+              \n<#968674775130075177>
+              \nWe post game maintenance schedules and updates in this channel.
+              \n
+              \n<#971230678198910986>
+              \nHere you will find ongoing known issues in-game. We also update the community here once we find the solution for known issues.
+              \n
+              \n<#908651499402436608>
+              \nYou'll find upcoming releases and projects sneak-peeks in this channel.
+              \n
+              \n<#900587709515575366>
+              \nHere is a bot-automated channel that lets you know when we post up a new tweet on our official Twitter account."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels-kb:
+    items:
+      welcome-bot-channels-kb2:
+        type: 2
+        title: "📚 Knowledge Base"
+        text: "<#1017337438215090206>
+              \nLearn all the ins and outs of the server in one place!
+              \n
+              \n<#1013415492385509477>
+              \nHere you'll find a helpful guide about anything and everything Crypto Unicorns.
+              \n
+              \n<#908771487622770718>
+              \nHere is where we post the summaries of our weekly townhalls with the CEO & CO-Founder of Crypto Unicorns Aron Beierschmitt.
+              \n
+              \n<#938020516667740211>
+              \nIn this channel, you'll find the recorded weekly townhalls we have with Crypto Unicorns' CEO & CO-Founder Aron Beierschmitt.
+              \n
+              \n<#938686237349396531>
+              \nYou can use this channel to help you calculate how much UNIM and RBW you need for breeding. Just type and send \"/breedunicorn\" in the channel."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels-gen:
+    items:
+      welcome-bot-channels-gen:
+        type: 2
+        title: "💬 General"
+        text: "\n<#898314244095877182>
+              \nThis channel serves as a lounge and a place where you can hang out with all the people in the community. You can only write in English here.
+              \n
+              \n<#968321939145904198>
+              \nWant to know about the different strategies in-game? Ask away and read up on the conversation on this channel.
+              \n
+              \n<#986013352918646855>
+              \nChat away here if you want to ask or talk about everything that relates to the CU's game economy, prices, as well as charts.
+              \n
+              \n<#900671368042020894>
+              \nWe post up polls regarding the game or anything about the community on this channel. Do help us by answering the polls!
+              \n
+              \n<#902071467808804884>
+              \nHere you can shill stuff even if it's not related to CU. Be careful though as the links and servers shilled here are not affiliated with CU.
+              \n
+              \n<#912295146782068756>
+              \nThis is a bot-automated channel that shows updates when Unicorns and Eggs are sold on Opensea.
+              \n
+              \n<#920930435255644160>
+              \nThis is a bot-automated channel that shows updates when a Land is sold on Opensea."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels-creations:
+    items:
+      welcome-bot-channels-greations:
+        type: 2
+        title: "🎨 Creations"
+        text: "\n<#899657100685348915>
+              \nYou can post and laugh at memes with the community here. Meme away!
+              \n
+              \n<#903966005489983488>
+              \nHere you can post and look at community fanarts for Crypto Unicorns.
+              \n
+              \n<#955620735781601280>
+              \nFind contents created by our fellow Unifam here!
+              \n
+              \n<#910009944722530364>
+              \nYou can showcase your unicorns and lands here!"
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels-dao:
+    items:
+      welcome-bot-channels-dao:
+        type: 2
+        title: "🧑‍⚖️ Governance"
+        text: "<#979876217836699678>
+              \nHere you can find the results of Snapshot voting for proposals.
+              \n
+              \n<#973991902699466874>
+              \nIn this channel, you can find news about DAO and governance related matters.
+              \n
+              \n<#1002970352827244575>
+              \nHere you'll see the discussions and takes of the council members about the draft proposals before it gets approved for voting on Snapshot."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels-events:
+    items:
+      welcome-bot-channels-events:
+        type: 2
+        title: "🎉 Events and Activities"
+        text: "<#934504134277742632>
+              \nThis is a channel for Loyalty Program's announcements and updates.
+              \n
+              \n<#918523981567500308>
+              \nPost up questions about the game here for our CEO & Co-Founder, and we'll read them out for the weekly townhalls.
+              \n
+              \n<#1006040738330574958>
+              \nThis channel's purpose is to get to know the community members better. We pop up a random question every day, so make sure to join us!
+              \n
+              \n<#936248793756758126>
+              \nThis is where the weekly townhalls are hosted.
+              \n
+              \n<#970841802418565171>
+              \nThis is a voice channel where Unifams come and hang around."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels-support:
+    items:
+      welcome-bot-channels-support:
+        type: 2
+        title: "ℹ️ Support"
+        text: "<#900667235532685342>
+              \nWhen you have any questions about the game or encounter issues in-game, you may reach out here for help.
+              \n
+              \n<#908392947291160607>
+              \nHave questions about the game that only devs can answer? Post it up here!
+              \n
+              \n<#956577307953340436>
+              \nThis channel is where you can post suggestions that you have for the game and the community.
+              \n
+              \n<#1015080107892809788>
+              \nOur third-party delegation teams can answer your questions about the delegation process here.
+              \n
+              \n<#908786206660251678>
+              \nWhen you catch a bad actor around the community, post it here! Make sure to read up on here too."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels-2nd-party:
+    items:
+      welcome-bot-channels-2nd-party:
+        type: 2
+        title: "🕹 2nd Party Partners"
+        text: "<#1011387558493687848>
+              \nHere you will find the weekly progress notes of our second-party partner developers.
+              \n
+              \n<#1011745148104876092>
+              \nThe friendly devs of Unigatchi would love to assist you here! Ask any Unigatchi-related questions here."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          intchannels:
+            buttonclass: 1
+            buttonname: "International Channels"
+            buttonids: "welcome-bot-channels-ic"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-channels-ic:
+    items:
+      welcome-bot-channels-ic:
+        type: 2
+        title: "🌏 International Channels"
+        text: "All international channels are made for specific global communities where you can find native writers and readers of different languages. To join an international channel, click on \"Language Roles\" button."
+      welcome-rules-copy-2:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Navigation"
+            buttonids: "nav"
+            buttontype: "Success"
+            buttondisabled: true
+          back:
+            buttonclass: 1
+            buttonname: "Back"
+            buttonids: "welcome-bot-channels"
+            buttontype: "Primary"
+            buttondisabled: false
+          language:
+            buttonclass: 1
+            buttonname: "Language Roles"
+            buttonids: "laungage"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy:
+        type: 3
+        items:
+          channels:
+            buttonclass: 1
+            buttonname: "Channels"
+            buttonids: "channelsd"
+            buttontype: "Success"
+            buttondisabled: true
+
+          newsupdates:
+            buttonclass: 1
+            buttonname: "News and Updates"
+            buttonids: "welcome-bot-channels-nu"
+            buttontype: "Secondary"
+            buttondisabled: false
+          kb:
+            buttonclass: 1
+            buttonname: "Knowledge Base"
+            buttonids: "welcome-bot-channels-kb"
+            buttontype: "Secondary"
+            buttondisabled: false
+          gen:
+            buttonclass: 1
+            buttonname: "General"
+            buttonids: "welcome-bot-channels-gen"
+            buttontype: "Secondary"
+            buttondisabled: false
+          creations:
+            buttonclass: 1
+            buttonname: "Creations"
+            buttonids: "welcome-bot-channels-creations"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-channels-copy2:
+        type: 3
+        items:
+          dao:
+            buttonclass: 1
+            buttonname: "Governance"
+            buttonids: "welcome-bot-channels-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+          events:
+            buttonclass: 1
+            buttonname: "Events and Activities"
+            buttonids: "welcome-bot-channels-events"
+            buttontype: "Secondary"
+            buttondisabled: false
+          support:
+            buttonclass: 1
+            buttonname: "Support"
+            buttonids: "welcome-bot-channels-support"
+            buttontype: "Secondary"
+            buttondisabled: false
+          2nd-party:
+            buttonclass: 1
+            buttonname: "2nd Party Partners"
+            buttonids: "welcome-bot-channels-2nd-party"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-about:
+    items:
+      welcome-bot-gameinfo-about:
+        type: 2
+        title: "🦄 About"
+        text: "**Introduction**
+              \n
+              \n**What is Crypto Unicorns?**
+              \nCrypto Unicorns is a new blockchain-based game centered around unique Unicorn NFTs that players can use in a fun farming simulation and a variety of exciting battle loops. Learn more about the game by reading our whitepaper.
+              \n
+              \n**When was the game launched**
+              \nThe game was launched on May 4, 2022.
+              \n
+              \n**In what blockchain is the game launched?**
+              \nThe game will be under the Polygon blockchain. You’ll need MATIC for the gas fees.
+              \n
+              \n**What game loops are already live?**
+              \nThe farming simulation and the gathering cart is already live. The battle loops will be released after the game launch.
+              \n
+              \n**Where can I learn more about this project?**
+              \nCheck out the \"Official Links\" button to see links related to the Crypto Unicorns project."
+      welcome-gameinfo-copy:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "game-info"
+            buttontype: "Success"
+            buttondisabled: true
+          lg:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "welcome-bot-gameinfo-links"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: false
+      ephemeral: true
+
+welcome-bot-gameinfo-lg:
+    items:
+      welcome-bot-gameinfo-lg:
+        type: 2
+        title: "👋 Laguna Games"
+        text: "Our titles are living worlds designed for real-time, large scale, and highly social competition.
+              \n
+              \nWe’ve spent the last 8+ years building out best in class infrastructure to enable efficient development and LiveOps.
+              \n
+              \nOur engine is a compilation of powerful, product-agnostic, tech and tools we can leverage to quickly build multiple titles with a shared set of core libraries.
+              \n
+              \nIn addition, LG Core equips design teams with a robust set of tooling to rapidly build custom tailored player experiences."
+      welcome-gameinfo-copy:
+        type: 3
+        items:
+          nav:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "game-info"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "welcome-bot-gameinfo-links"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: false
+      ephemeral: true
+
+welcome-bot-gameinfo-links:
+    items:
+      embed:
+        type: 2
+        title: "🔗 OFFICIAL LINKS 🔗"
+        text: "You can also find CU here! Be careful of bad actors impersonating CU or LG."
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: false
+      ephemeral: true
+
+welcome-bot-gameinfo-linksa:
+    items:
+      welcome-bot-gameinfo-lg:
+        type: 2
+        title: "👋 About"
+        text: "**Website**
+              \nLearn more about Crypto Unicorns here!
+              \n🔗 https://cryptounicorns.fun/
+              \n
+              \n**Laguna Games**
+              \nLearn more about the company behind the Crypto Unicorns IP here:
+              \n🔗 https://laguna.games/
+              \n
+              \n**Meet the Team**
+              \nMeet the team members from Laguna Games!
+              \n🔗 https://bit.ly/3CMDKAK"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-game:
+    items:
+      welcome-bot-gameinfo-game:
+        type: 2
+        title: "🎮 Play the Game"
+        text: "**Play the Game**
+              \nEnter the Unicorn Multiverse
+              \n🔗 https://game.cryptounicorns.fun/
+              \n
+              \n**Claim Website**
+              \nClaim any rewards dropped to you through this website
+              \n🔗 https://claim.cryptounicorns.fun/
+              \n
+              \n**App Website**
+              \nAccess your on-chain inventory, season leaderboards, and more
+              \n🔗 https://app.cryptounicorns.fun/
+              \n
+              \n**Dark Forest**
+              \nHatch your Shadowcorns here
+              \n🔗 https://darkforest.cryptounicorns.fun/"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-qlinks:
+    items:
+      welcome-bot-gameinfo-qlinks:
+        type: 2
+        title: "📚 Resources"
+        text: "**Official Game Guide**
+              \nNew to the game? Give our Official Game Guide a look!
+              \n🔗 https://bit.ly/3MI66Rt
+              \n
+              \n**Zendesk (for in-game issues)**
+              \nExperiencing issues related to Crypto Unicorns? Send us a ticket here:
+              \n🔗 https://bit.ly/3MPsB77
+              \n
+              \n**CU Public Roadmap**
+              \nThis is an up-to-date list of features that we've implemented and are planning to add to the game in the future.
+              \n🔗 https://bit.ly/CUroadmap
+              \n
+              \n**Whitepaper V2**
+              \nV2 of our roadmap. Created before game launch.
+              \n🔗 https://bit.ly/3Nn68PY
+              \n
+              \n**CU Media Kit**
+              \nWhere you can get PNGs of logos, banners, and other cool elements!
+              \n🔗 https://bit.ly/3SDeRzD
+              \n
+              \n**Community Accountability Records**
+              \nWe log any promises made to the community here for accountability.
+              \n🔗 *Coming Soon!*
+              \n
+              \n**Events and Reward Programs Masterlist**
+              \nThis is a complete list of all Events and Reward Programs from Crypto Unicorns since the beginning.
+              \n🔗 https://bit.ly/3CfmpSi
+              \n
+              \n**CU Medium**
+              \nRead more about the latest Crypto Unicorns-related news here
+              \n🔗 https://medium.com/@lagunagames
+              \n
+              \n**Dune Analytics**
+              \nTrack live stats on CU via Dune Analytics.
+              \n🔗 https://dune.com/lagunagames12/cu-dashboard-index
+              \n
+              \n**Crypto Unicorns Treasury**
+              \nTrack CU Treasury via Dune Analytics
+              \nhttps://dune.com/lagunagames12/cutreasury"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+
+welcome-bot-gameinfo-dao:
+    items:
+      welcome-bot-gameinfo-dao:
+        type: 2
+        title: "🏛️ Staking & Governance"
+        text: "**Staking Dashboard**
+              \nStake RBW and RBWLP and manage your staked tokens here:
+              \n🔗 https://cryptounicorns.vault.inc/
+              \n
+              \n**Governance Forum**
+              \nAll DAO-related discussion is done through the forums.
+              \n🔗 https://forum.cryptounicorns.fun/
+              \n
+              \n**Snapshot.org Page**
+              \nVote on Live Proposals using your sRBW on our Snapshot page!
+              \n🔗 https://snapshot.org/#/lgcryptounicorns.eth"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-os:
+    items:
+      welcome-bot-gameinfo-os:
+        type: 2
+        title: "🌊 Marketplaces"
+        text: "Purchase Unicorns, Lands, Items, Shadowcorns, and other assets related to the Crypto Unicorns project over here!
+              \n
+              \n**Hawku (Beta)**
+              \n*Note: For now, the Hawku market does not support Item sales. This includes SC eggs.*
+              \n🔗 https://www.hawku.com/cryptounicorns
+              \n
+              \n**Unicorns**
+              \nhttps://opensea.io/collection/crypto-unicorns-market
+              \n
+              \n**Land**
+              \nhttps://opensea.io/collection/crypto-unicorns-land-market
+              \n
+              \n**Shadowcorns**
+              \nhttps://opensea.io/collection/crypto-unicorns-shadowcorns-market
+              \n
+              \n**Items Market**
+              \nhttps://opensea.io/collection/crypto-unicorns-items-marketplace"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-eco:
+    items:
+      welcome-bot-gameinfo-eco:
+        type: 2
+        title: "🏦 Economy"
+        text: "**Official RBW/wETH Liquidity Pool**
+              \nhttps://bit.ly/3y0kyA5
+              \n
+              \n**RBW on DEX Screener (Chart)**
+              \nhttps://bit.ly/3vPiCHR
+              \n
+              \n**UNIM on DEX Screener (Chart)**
+              \nhttps://bit.ly/3KPUdaZ"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-sns:
+    items:
+      welcome-bot-gameinfo-sns:
+        type: 2
+        title: "📲 Socials"
+        text: "**Discord**
+              \nhttps://discord.gg/cryptounicorns
+              \n
+              \n**Reddit**
+              \nhttps://reddit.com/r/cryptounicorns
+              \n
+              \n**Twitter**
+              \nhttps://twitter.com/crypto_unicorns
+              \n
+              \n**Telegram**
+              \nhttps://t.me/crypto_unicorns
+              \n
+              \n**Telegram (Announcements only)**
+              \nhttps://t.me/cryptounicorns_announcements
+              \n
+              \n**Facebook**
+              \nhttps://www.facebook.com/cryptounicorns.fun
+              \n
+              \n**Youtube**
+              \nhttps://www.youtube.com/c/CryptoUnicorns"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-contracts:
+    items:
+      welcome-bot-gameinfo-contracts:
+        type: 2
+        title: "💎 Contracts"
+        text: "**Unicorn Diamond Contract:**
+              \n`0xdC0479CC5BbA033B3e7De9F178607150B3AbCe1f`
+              \n
+              \n**Unicorn Farm Diamond Contract (Land):**
+              \n`0xA2a13cE1824F3916fC84C65e559391fc6674e6e8`
+              \n
+              \n**Unicorn Milk Diamond Contract (UNIM):**
+              \n`0x64060aB139Feaae7f06Ca4E63189D86aDEb51691`
+              \n
+              \n**Rainbow Token Contract (RBW):**
+              \n`0x431cd3c9ac9fc73644bf68bf5691f4b83f9e104f`
+              \n
+              \n**RBW/wETH LP Token Contract (RBWLP):**
+              \n`0x8f9dd2064eb38e8e40f2ab67bde27c0e16ea9b08`"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-osc:
+    items:
+      welcome-bot-gameinfo-osc:
+        type: 2
+        title: "🧑‍💻 Open Source Code"
+        text: "**UNIM**
+              \n🔗 https://github.com/Laguna-Games/unim-public
+              \n
+              \n**RBW**
+              \n🔗 https://github.com/Laguna-Games/rbw-public
+              \n
+              \n**Game Bank**
+              \n🔗 https://github.com/Laguna-Games/gamebank-public
+              \n
+              \n**Land NFT**
+              \n*Coming soon*
+              \n
+              \n**Unicorn NFT**
+              \n*Coming soon*"
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinks:
+            buttonclass: 1
+            buttonname: "Community Links"
+            buttonids: "welcome-bot-gameinfo-clinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true
+
+welcome-bot-gameinfo-clinks:
+    items:
+      welcome-bot-gameinfo-clinks:
+        type: 2
+        title: "🤝 Community Links"
+        text: "**Crypto Unicorns KB v3.7**
+              \n*by <@237596920543969281>*
+              \n🔗 https://bit.ly/3T2SkMm
+              \nA resource containing up-to-date information on recipes, materials, leveling requirements, and more. VBA Code for TXT is: https://bit.ly/3CGum48
+              \n
+              \n**Moonstream Stash-in Tool**
+              \n*by <@392077966269743106>*
+              \n🔗  https://play.moonstream.to/games/cryptoUnicorns/
+              \nA tool for stashing UNIM and RBW into the game.
+              \n
+              \n**CU Telegram Assistant**
+              \n*by <@929326398630420492>*
+              \n🔗 https://t.me/CU_assistant_bot
+              \nTelegram bot to check unicorn genes, stats, and up-to-date Lands and Unicorns metadata.
+              \n
+              \n**RMP Price History**
+              \n*by <@440207442861883392>*
+              \n🔗 http://charts.block3.codes/
+              \nCharts displaying price history for berries, seeds, crafting supplies, and boosters on the RMP. Updated daily currently."
+      welcome-bot-gameinfo-links-3:
+        type: 3
+        items:
+          others:
+            buttonclass: 1
+            buttonname: "Others"
+            buttonids: "welcome-bot-gameinfo-olinks"
+            buttontype: "Success"
+            buttondisabled: true
+          clinksform:
+            buttonclass: 3
+            buttonname: "Community Links Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1022962778832637953"
+            buttontype: "Link"
+            buttondisabled: false
+          caccform:
+            buttonclass: 3
+            buttonname: "Community Accountability Records Form"
+            buttonurl: "https://discord.com/channels/898314244095877180/898705519966056469/1027017124700495966"
+            buttontype: "Link"
+            buttondisabled: false
+      welcome-bot-gameinfo-links:
+        type: 3
+        items:
+          links:
+            buttonclass: 1
+            buttonname: "Official Links"
+            buttonids: "linksd"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-linksa"
+            buttontype: "Secondary"
+            buttondisabled: false
+          game:
+            buttonclass: 1
+            buttonname: "Play the Game"
+            buttonids: "welcome-bot-gameinfo-game"
+            buttontype: "Secondary"
+            buttondisabled: false
+          qlinks:
+            buttonclass: 1
+            buttonname: "Resources"
+            buttonids: "welcome-bot-gameinfo-qlinks"
+            buttontype: "Secondary"
+            buttondisabled: false
+          dao:
+            buttonclass: 1
+            buttonname: "Staking & Governance"
+            buttonids: "welcome-bot-gameinfo-dao"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-bot-gameinfo-links-2:
+        type: 3
+        items:
+          os:
+            buttonclass: 1
+            buttonname: "Marketplaces"
+            buttonids: "welcome-bot-gameinfo-os"
+            buttontype: "Secondary"
+            buttondisabled: false
+          eco:
+            buttonclass: 1
+            buttonname: "Economy"
+            buttonids: "welcome-bot-gameinfo-eco"
+            buttontype: "Secondary"
+            buttondisabled: false
+          sns:
+            buttonclass: 1
+            buttonname: "Socials"
+            buttonids: "welcome-bot-gameinfo-sns"
+            buttontype: "Secondary"
+            buttondisabled: false
+          contracts:
+            buttonclass: 1
+            buttonname: "Contracts"
+            buttonids: "welcome-bot-gameinfo-contracts"
+            buttontype: "Secondary"
+            buttondisabled: false
+          osc:
+            buttonclass: 1
+            buttonname: "Open Source Code"
+            buttonids: "welcome-bot-gameinfo-osc"
+            buttontype: "Secondary"
+            buttondisabled: false
+      welcome-buttons-2:
+        type: 3
+        items:
+          gameinfo:
+            buttonclass: 1
+            buttonname: "Game Info"
+            buttonids: "gameinfo"
+            buttontype: "Success"
+            buttondisabled: true
+          about:
+            buttonclass: 1
+            buttonname: "About"
+            buttonids: "welcome-bot-gameinfo-about"
+            buttontype: "Secondary"
+            buttondisabled: false
+          lagunagames:
+            buttonclass: 1
+            buttonname: "Laguna Games"
+            buttonids: "welcome-bot-gameinfo-lg"
+            buttontype: "Secondary"
+            buttondisabled: false
+    options:
+      update: true
+      ephemeral: true

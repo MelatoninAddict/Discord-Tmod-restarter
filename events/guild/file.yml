@@ -1,0 +1,168 @@
+# file.yml
+#1 = image, 2 = text, 3 = buttons, pending 4 = Dropdown
+pagename:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "popcat.gif"
+    pageitem2:
+      #embed type processing
+      type: 2
+      title: "Popcat Emporium"
+      text: "Pop Pop Pop\n \n POP"
+    pageitem3:
+      type: 3
+      items:
+
+#Regular Style Buttons
+
+        button1:
+          buttonclass: 1
+          buttonname: "Popcat Info"
+          buttonids: "pagename"
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Secondary"
+          buttondisabled: true
+
+
+## Button with emoji
+        button2:
+          buttonclass: 2
+          buttonname: "Etymology"
+          buttonids: "pagename2"
+          buttonemoji: "1009635377428058162" #emoji id
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Secondary"
+          buttondisabled: false
+
+## Link type buttons
+        button3:
+          buttonclass: 3
+          buttonname: "Custom Button 3"
+          buttonurl: 'https://discord.js.org' #.setURL()
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Link"
+          buttondisabled: false
+    pageitem4:
+      type: 3
+      items:
+
+#Regular Style Buttons
+
+        button1:
+          buttonclass: 5
+          buttonname: "Custom Button 1"
+          buttonids: "subbutton3"
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Primary"
+          buttondisabled: true
+
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: false
+    origin: "none"
+    #set update to false on MAIN YAML options
+
+
+pagename2:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "popcatorigin.jpg"
+    pageitem2:
+      type: 2
+      title: "   "
+      text: "Prior to October 9th, 2020, Twitter user @XavierBFB posted two images of his cat Oatmeal to an unknown Discord server, a photograph of the cat and an edit in which the cat is given a widely opened, O-shaped mouth. On October 9th, Redditor[8] Skettidragon, a friend of @XavierBFB, posted an edit based on the photographs to /r/MEOW_IRL subreddit, where it gained 122 upvotes in one monthe"
+    pageitem3:
+      type: 3
+      items:
+
+#Regular Style Buttons
+
+        button1:
+          buttonclass: 1
+          buttonname: "information:"
+          buttonids: "subbutton"
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Primary"
+          buttondisabled: true
+
+        button2:
+          buttonclass: 1
+          buttonname: "Pop"
+          buttonids: "popcat"
+          buttonemoji: "1009635377428058162" #emoji id
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Secondary"
+          buttondisabled: false
+
+
+        button3:
+          buttonclass: 1
+          buttonname: "Next Page"
+          buttonids: "pagename3"
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Secondary"
+          buttondisabled: false
+
+
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: false
+    origin: "pagename"
+    #set update to false on MAIN YAML options
+
+
+pagename3:
+  items:
+    pageitem:
+      #for type image
+      type: 1
+      image-file: "popcatorigin.jpg"
+    pageitem2:
+      type: 2
+      title: "   "
+      text: "Starting in mid-October 2020, the images gained popularity in two related meme formats: on iFunny and Instagram, edits in which the cat lip synced various songs gained popularity (October 20th meme by @ideiasvirgin[6] shown below, left), while on Twitter and Facebook four-panel memes in which various characters copied the facial expressions of the cat were spread "
+    pageitem3:
+      type: 3
+      items:
+
+#Regular Style Buttons
+
+        button1:
+          buttonclass: 1
+          buttonname: "Information:"
+          buttonids: "subbutton"
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Primary"
+          buttondisabled: true
+
+        button2:
+          buttonclass: 1
+          buttonname: "Pop"
+          buttonids: "popcat"
+          buttonemoji: "1009635377428058162" #emoji id
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Secondary"
+          buttondisabled: false
+
+
+        button3:
+          buttonclass: 1
+          buttonname: "Back"
+          buttonids: "pagename2"
+            #this might be substituted for the 'page' name if ever
+          buttontype: "Secondary"
+          buttondisabled: false
+
+
+  options:
+    ephemeral: true
+    #Setting update to true will update original button
+    update: true
+    origin: "pagename2"
+    #set update to false on MAIN YAML options

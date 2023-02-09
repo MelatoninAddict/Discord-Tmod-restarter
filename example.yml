@@ -1,0 +1,9 @@
+pagename:
+  items:
+    pageitem:
+      type: 2
+      title: "This is the greatest show"
+      text: "- Greatest Showman maybe"
+  options:
+    update: false
+    ephemeral: true
