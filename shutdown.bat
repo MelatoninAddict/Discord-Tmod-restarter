@@ -1,1 +1,1 @@
-taskkill /im dotnet.exe
+taskkill /im /f dotnet.exe
