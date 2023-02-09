@@ -12,7 +12,7 @@ restart:
             buttonname: "Restart Terraria"
             buttonids: "terraria-restart"
             buttontype: "Success"
-            buttondisabled: true
+            buttondisabled: false
     options:
       update: false
       ephemeral: false

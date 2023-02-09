@@ -17,7 +17,8 @@ const {
 } = require('../../getrole')
 const treeify = require('treeify');
 const timer = ms => new Promise(res => setTimeout(res, ms))
-const taskkill = require('taskkill');
+const execFile = require('child_process').execFile;
+
 
 module.exports = async (Discord, client, interaction) => {
   var channel = interaction.channel;
@@ -179,11 +180,30 @@ module.exports = async (Discord, client, interaction) => {
     if (split3.length > 1) {
       if (split3[0] == "terraria") {
         if (split3[1] == "restart"){
-          await taskkill(["dotnet.exe"]);
+          try{
+
+          const child = execFile('shutdown.bat', [], (error, stdout, stderr) => {
+            if (error) {
+              throw error;
+            }
+            console.log(stdout);
+          });
+
+          const child2 = execFile('startup.bat', [], (error, stdout, stderr) => {
+            if (error) {
+              throw error;
+            }
+            console.log(stdout);
+          });
+
           await interaction.reply({
             content: 'Restarted Server',
             ephemeral: false
           }).catch(console.error);
+          }
+        catch(error){
+            console.log(error)
+          }
         }
       }
       return
