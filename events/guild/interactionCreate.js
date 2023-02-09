@@ -186,7 +186,7 @@ module.exports = async (Discord, client, interaction) => {
             if (error) {
               throw error;
             }
-            console.log(stdout);
+            console.log("nice");
           });
 
           // const child2 = execFile('startup.bat', [], (error, stdout, stderr) => {
