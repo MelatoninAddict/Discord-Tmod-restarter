@@ -182,22 +182,22 @@ module.exports = async (Discord, client, interaction) => {
         if (split3[1] == "restart"){
           try{
 
-          const child = execFile('shutdown.bat', [], (error, stdout, stderr) => {
+          const child = execFile('terraria.bat', [], (error, stdout, stderr) => {
             if (error) {
               throw error;
             }
             console.log(stdout);
           });
 
-          const child2 = execFile('startup.bat', [], (error, stdout, stderr) => {
-            if (error) {
-              throw error;
-            }
-            console.log(stdout);
-          });
+          // const child2 = execFile('startup.bat', [], (error, stdout, stderr) => {
+          //   if (error) {
+          //     throw error;
+          //   }
+          //   console.log(stdout);
+          // });
 
           await interaction.reply({
-            content: 'Restarted Server',
+            content: 'Restarting Server',
             ephemeral: false
           }).catch(console.error);
           }
