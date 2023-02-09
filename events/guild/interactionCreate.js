@@ -45,9 +45,7 @@ module.exports = async (Discord, client, interaction) => {
 
         for (components of interaction.message.components) {
           if (components.components[0].data.custom_id == interaction.customId) {
-           //####debugcleaning####console.log("Found same id")
             for (values of components.components[0].options) {
-             //####debugcleaning####console.log(`Trying to look for all component values ${values.value}`)
               split = values.value.split("-");
               if (split[0] == "role") {
                 allroles.push(split[1])
@@ -55,7 +53,6 @@ module.exports = async (Discord, client, interaction) => {
             }
           }
         }
-       //####debugcleaning####console.log(`All roles is ${allroles}`);
         // Successfully gotten all the roles
 
         // GIVING ROLES
@@ -118,34 +115,9 @@ module.exports = async (Discord, client, interaction) => {
           }
 
         }
-        // Code for Checking each role numbers in component 0 of item 0
-        // for (values of interaction.message.components[0].components[0].options) {
-        //  //####debugcleaning####console.log(`Trying to look for all component values ${values.value}`)
-        // }
       }
 
 
-
-      // split = interaction.values[0].split("-");
-      ////####debugcleaning####console.log(`${split} is split up with ${split.length} args`)
-      //
-      //
-      // if (split.length==2){
-      //  //####debugcleaning####console.log("split in")
-      //   // if type of select is role
-      //   if (split[0]=="role"){
-      //   rolegiven = giveRole2(interaction.member,"1012361692904181832")
-      //  //####debugcleaning####console.log(`Role given ${rolegiven}`)
-      //   if (rolegiven == "added"){
-      //     await interaction.reply({content:"Successfully gained role", ephemeral: true})
-      //   }else {
-      //     await interaction.reply({content:"Successfully removed role",  ephemeral: true})
-      //   }
-      //   }
-      // }
-      // else{
-      //  //####debugcleaning####console.log("weird champ not a role interaction")
-      // }
       await interaction.reply({
         content: "Successfully Modified roles.",
         ephemeral: true
@@ -203,6 +175,20 @@ module.exports = async (Discord, client, interaction) => {
       }
 
     }
+    if (split3.length > 1) {
+      if (split3[0] == "terraria") {
+        if (split3[1] == "restart"){
+          
+          await interaction.reply({
+            content: 'Restarted Server',
+            ephemeral: false
+          }).catch(console.error);
+        }
+      }
+      return
+      }
+
+    }
 
 
 
@@ -232,128 +218,11 @@ module.exports = async (Discord, client, interaction) => {
         object = Object.assign(object, parsed)
       }
     }
-    //object = YAML.parse(file);
-   //####debugcleaning####console.log(object);
-
-
-    // var items = [];
-    // var level1 = Object.keys(object);
-    ////####debugcleaning####console.log(level1, " : Level 1")
-    // for (prop of level1) {
-    //   var level2 = Object.keys(object[prop]);
-    //  //####debugcleaning####console.log(level2, ": Level 2")
-    // }
-
-    // OLD TEST CODE
-    //
-    // //Puts out all Valid Main Property in the YAML
-    // var keys = Object.keys(object);
-    ////####debugcleaning####console.log(keys)
-    // for (key of keys){
-    //     var keys2 = Object.keys(object[key]);
-    //    //####debugcleaning####console.log(keys2)
-    // }
-    //
-    // ////####debugcleaning####console.log(keys)
-    // ////####debugcleaning####console.log(keys2)
-    // // SHOWS THAT THE CONTENTS IS ITERABLE
-    // // for (obj of object.YAML){
-    // //  //####debugcleaning####console.log(obj);
-    // // }
-    //
-    // //This prints the first property in the yaml
-    // for (obj of object[keys[0]].text){
-    //  //####debugcleaning####console.log(obj);
-    // }
-    //
-    //
-
-    //======try row2.addComponents()
-
-    //=============== Accessing DYNAMICALLY=====================
-
-    // var dbutton1 = object[level1[0]]["items"]["pageitem3"]["items"]["button1"]
-    // // var dlabel =object[level1[0]]["items"]["pageitem3"]["buttons"]
-    // // var dtype =object[level1[0]]["items"]["pageitem3"]["buttontype"]
-    // var row2 = new ActionRowBuilder()
-    // .addComponents(
-    //   new ButtonBuilder()
-    //     .setCustomId(dbutton1["buttonids"])
-    //     .setLabel(dbutton1["buttonname"])
-    //     .setStyle(ButtonStyle[dbutton1["buttontype"]]),
-    //   )
-
-    // .addComponents(
-    //   new ButtonBuilder()
-    //     .setCustomId(dcustomid[1])
-    //     .setLabel(dlabel[1])
-    //     .setStyle(ButtonStyle.Secondary),
-    // );
-    //
-    // row2.addComponents(
-    //   new ButtonBuilder()
-    //     .setCustomId(dcustomid[1]+'2')
-    //     .setLabel(dlabel[1]+'2')
-    //     .setStyle(ButtonStyle.Secondary),
-    // );
-    //
-
-    //============== Trying to create rows dynamically.
-
-    // var items2 = [];
-    // var level1 = Object.keys(object);
-    ////####debugcleaning####console.log(level1, " : Level 1")
-    // for (prop of level1){
-    //     var level2 = Object.keys(object[prop]);
-    //    //####debugcleaning####console.log(level2, ": Level 2");
-    //     for (keys1 of level2){
-    //         var level3 = Object.keys(object[prop][keys1])
-    //        //####debugcleaning####console.log(level3, "LEVEL 3 ACCESSSSS");
-    //         for (keys2 of level3){
-    //           var level4 = Object.keys(object[prop][keys1][keys2])
-    //          //####debugcleaning####console.log(level4, "LEVEL 4 ACCESSSSS");
-    //           for (keys3 of level4){
-    //             var level5 = Object.keys(object[prop][keys1][keys2][keys3])
-    //            //####debugcleaning####console.log(level5, "LEVEL 5 ACCESSSSS");
-    //             for (keys4 of level5){
-    //               var level6 = Object.keys(object[prop][keys1][keys2][keys3][keys4])
-    //              //####debugcleaning####console.log(level5, "LEVEL 6 ACCESSSSS");
-    //             }
-    //           }
-    //        }
-    //     }
-    // }
-
 
     // Just viewing all javascript 'Objects'
     var items2 = [];
     var level1 = Object.keys(object);
-    ////####debugcleaning####console.log(level1, " : Level 1")
-    // for (a in object) {
-    //   if (typeof object[a] === 'object') {
-    //    //####debugcleaning####console.log(a, typeof(a), "A")
-    //     for (b in object[a]) {
-    //       if (typeof object[a][b] === 'object') {
-    //        //####debugcleaning####console.log("--", b, typeof(b), "B")
-    //         for (c in object[a][b]) {
-    //           if (typeof object[a][b][c] === 'object') {
-    //            //####debugcleaning####console.log("----", c, typeof(c), "C")
-    //             for (d in object[a][b][c]) {
-    //               if (typeof object[a][b][c][d] === 'object') {
-    //                //####debugcleaning####console.log("------", d, typeof(d), "D")
-    //                 for (e in object[a][b][c][d]) {
-    //                  //####debugcleaning####console.log("--------", e, typeof(e), "E")
-    //                 }
-    //               }
-    //             }
-    //           }
-    //         }
-    //       }
-    //     }
-    //   }
-    // }
 
-    //console.log(level1.indexOf("pagename4"),"Number Check if exists")
     var sentbuttonid = interaction.customId;
     var page1 = new ActionRowBuilder()
     var page2 = new ActionRowBuilder()
