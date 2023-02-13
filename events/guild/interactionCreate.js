@@ -26,7 +26,7 @@ module.exports = async (Discord, client, interaction) => {
   console.log(`${interaction.user.tag} in #${interaction.channel.name} triggered an interaction.`);
   //await interaction.deferReply({ ephemeral: true });
 
-  interaction.deferReply();
+  await interaction.deferReply();
   if (interaction.isSelectMenu()) {
     try {
      //####debugcleaning####console.log(`${interaction.user.tag} in #${interaction.channel.name} triggered a select interaction`);
