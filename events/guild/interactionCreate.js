@@ -26,6 +26,7 @@ module.exports = async (Discord, client, interaction) => {
   console.log(`${interaction.user.tag} in #${interaction.channel.name} triggered an interaction.`);
   //await interaction.deferReply({ ephemeral: true });
 
+  interaction.deferReply();
   if (interaction.isSelectMenu()) {
     try {
      //####debugcleaning####console.log(`${interaction.user.tag} in #${interaction.channel.name} triggered a select interaction`);
@@ -74,12 +75,12 @@ module.exports = async (Discord, client, interaction) => {
 
 
                 if (rolegiven == "added") {
-                  // await interaction.reply({
+                  // await interaction.editReply({
                   //   content: "Successfully gained role",
                   //   ephemeral: true
                   // })
                 } else {
-                  // await interaction.reply({
+                  // await interaction.editReply({
                   //   content: "Already Have role",
                   //   ephemeral: true
                   // })
@@ -104,12 +105,12 @@ module.exports = async (Discord, client, interaction) => {
             rolegiven = takeRole(interaction.member, item)
            //####debugcleaning####console.log(`Role taken ${rolegiven} on ${item}`)
             if (rolegiven == "removed") {
-              // await interaction.reply({
+              // await interaction.editReply({
               //   content: "Successfully gained role",
               //   ephemeral: true
               // })
             } else {
-              // await interaction.reply({
+              // await interaction.editReply({
               //   content: "Role did not exist in user",
               //   ephemeral: true
               // })
@@ -120,12 +121,12 @@ module.exports = async (Discord, client, interaction) => {
       }
 
 
-      await interaction.reply({
+      await interaction.editReply({
         content: "Successfully Modified roles.",
         ephemeral: true
       })
     } catch (err) {
-      await interaction.reply({
+      await interaction.editReply({
         content: "An error occured. Please notify an administrator",
         ephemeral: true
       })
@@ -163,12 +164,12 @@ module.exports = async (Discord, client, interaction) => {
 
         returned = giveRole(interaction.member, split3[1])
         if(returned=="added"){
-        await interaction.reply({
+        await interaction.editReply({
           content: 'Role Added',
           ephemeral: true
         });
         }else{
-        await interaction.reply({
+        await interaction.editReply({
           content: 'Role Removed',
           ephemeral: true
         }).catch(console.error);
@@ -193,7 +194,7 @@ module.exports = async (Discord, client, interaction) => {
           //   console.log(stdout);
           // });
 
-          await interaction.reply({
+          await interaction.editReply({
             content: 'Restarting Server',
             ephemeral: false
           }).catch(console.error);
@@ -212,7 +213,7 @@ module.exports = async (Discord, client, interaction) => {
 
 
     if (interaction.customId == "popcat") {
-      await interaction.reply({
+      await interaction.editReply({
         content: 'Pop!',
         ephemeral: true
       });
@@ -426,7 +427,7 @@ module.exports = async (Discord, client, interaction) => {
         }
       }
     } else {
-      await interaction.reply({
+      await interaction.editReply({
         content: 'There was an error cannot find page',
         ephemeral: true
       });
@@ -589,7 +590,7 @@ module.exports = async (Discord, client, interaction) => {
     } else {
       await interaction.deferReply({ ephemeral: true });
       //await timer(3000);
-      //return await interaction.reply(argumentbuilder);
+      //return await interaction.editReply(argumentbuilder);
       return await interaction.editReply(argumentbuilder);
     }
     }catch(error){
@@ -600,17 +601,17 @@ module.exports = async (Discord, client, interaction) => {
     //   if (object[placeholder]["options"]["update"] == true){
     //         return interaction.update({ content: "Debug 2",embeds:[embed],components:rows, ephemeral: true });
     //   }else{
-    //         return await interaction.reply({ content: "Debug 1",embeds:[embed],components:rows, ephemeral: true });
+    //         return await interaction.editReply({ content: "Debug 1",embeds:[embed],components:rows, ephemeral: true });
     //   }
     // }else{
     //
     //   if (object[placeholder]["options"]["update"] == true){
     //         return interaction.update({ content: "Debug 2",components:rows, ephemeral: true });
     //   }else{
-    //         return await interaction.reply({ content: "Debug 1",components:rows, ephemeral: true });
+    //         return await interaction.editReply({ content: "Debug 1",components:rows, ephemeral: true });
     //   }
     // }
-    //return await interaction.reply({ content: "Custom test",components:rows, ephemeral: true });
+    //return await interaction.editReply({ content: "Custom test",components:rows, ephemeral: true });
   };
 
 
@@ -623,7 +624,7 @@ module.exports = async (Discord, client, interaction) => {
   // 		command.execute(interaction);
   // 	} catch (error) {
   // 		console.error(error);
-  // 		await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+  // 		await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
   // 	}
 
   if (!interaction.isChatInputCommand()) return;
@@ -637,11 +638,11 @@ module.exports = async (Discord, client, interaction) => {
     await command.execute(interaction);
   } catch (error) {
     console.error(error);
-    await await interaction.reply({
+    await await interaction.editReply({
       content: 'There was an error while executing this command!',
       ephemeral: true
     });
-    // await await interaction.reply({
+    // await await interaction.editReply({
     //   content: 'There was an error while executing this command!',
     //   ephemeral: true
     // });
@@ -663,7 +664,7 @@ module.exports = async (Discord, client, interaction) => {
 //     		command.execute(interaction);
 //     	} catch (error) {
 //     		console.error(error);
-//     		await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+//     		await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
 //     	}
 // 	},
 // };
